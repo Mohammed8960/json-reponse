@@ -1,0 +1,29 @@
+{
+  "name": "mohamedismail/json-response",
+  "description": "a simple class to return a properly formatted json response with http status",
+  "type": "library",
+  "keywords": [
+    "Json",
+    "Response",
+    "PHP",
+    "API Response"
+  ],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Mohammed Abdelrasoul",
+      "email": "mohammed.abdelrasoul@gmail.com"
+    }
+  ],
+  "require": {
+    "php": ">=5.3.0.*"
+  },
+  "autoload": {
+    "psr-4": {
+      "Devscreencast\\ResponseClass\\": "src/"
+    }
+  },
+  "config": {
+    "optimize-autoloader": true
+  }
+}
